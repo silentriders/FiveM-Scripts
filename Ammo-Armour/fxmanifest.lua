@@ -5,7 +5,7 @@ description 'Armour / Ammo Reworked'
 author 'LordTiger'
 
 
-version '1.0.1'
+version '1.0.2'
 
 server_scripts {
   'config.lua',
