@@ -1,11 +1,11 @@
 fx_version 'adamant'
 game 'gta5'
 
-description 'Armour Reworked'
+description 'Armour / Ammo Reworked'
 author 'LordTiger'
 
 
-version '1.0.0'
+version '1.0.1'
 
 server_scripts {
   'config.lua',

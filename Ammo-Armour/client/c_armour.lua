@@ -264,14 +264,3 @@ AddEventHandler('lordtiger_armour:t4_armour', function()
   end
 
 end)
-
-RegisterNetEvent('lordtiger_armour:scuba')
-AddEventHandler('lordtiger_armour:scuba', function()
-
-
-    local playerPed = PlayerPedId()
-
-    SetEnableScuba(playerPed, true)
-    SetPedMaxTimeUnderwater(playerPed, 15000.00)
-
-end)

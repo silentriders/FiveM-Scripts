@@ -4,7 +4,7 @@ TriggerEvent(Config.ESX, function(obj)
 	ESX = obj
 end)
 
---Shotgun Ammo Clip
+-- Ammo Clip
 RegisterServerEvent('lordtiger_ammo:ammoClip')
 AddEventHandler('lordtiger_ammo:ammoClip', function()
 	local xPlayer = ESX.GetPlayerFromId(source)
